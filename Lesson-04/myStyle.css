@@ -1,0 +1,14 @@
+body {
+  background-color: beige;
+}
+
+table {
+  border: 2px solid green;
+  font-size: 30px;
+  width: 300px;
+}
+
+td {
+  border: 2px red solid;
+  padding: 10px;
+}
