@@ -1,0 +1,27 @@
+/* p {
+  border: 1px red solid;
+} */
+
+body {
+  width: 600px;
+  height: 600px;
+  border: 2px brown solid;
+}
+
+div {
+  border: 20px black solid;
+
+  margin-top: 10px;
+  background-color: beige;
+  /* background-image: url("https://andron13.de/img/blog/berlin-sw-01.jpg"); */
+}
+.first {
+  width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.second {
+  width: 400px;
+  box-sizing: content-box;
+  padding: 10px;
+}

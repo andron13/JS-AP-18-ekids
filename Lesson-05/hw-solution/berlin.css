@@ -1,0 +1,11 @@
+img {
+  width: 200px;
+  /* border: 2px solid black; */
+}
+
+table,
+tr,
+td {
+  border: 3px red dotted;
+}
+
