@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.flag {
+  border: 1px gray solid;
+  /* height: 300px; */
+  width: 200px;
+  margin: 100px auto;
+}
+
+.first-line {
+  background-color: aqua;
+  border: 1px gray solid;
+  height: 100px;
+}
+
+.second-line {
+  background-color: white;
+  border: 1px gray solid;
+  height: 100px;
+}
+
+.third-line {
+  background-color: aqua;
+  border: 1px gray solid;
+  height: 100px;
+}
+
+@media screen and (min-width: 350px) {
+  .first-line {
+    background-color: white;
+  }
+  .second-line {
+    background-color: red;
+  }
+  .third-line {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .first-line {
+    background-color: black;
+  }
+  .second-line {
+    background-color: red;
+  }
+  .third-line {
+    background-color: gold;
+  }
+}
