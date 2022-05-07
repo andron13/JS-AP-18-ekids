@@ -1,0 +1,13 @@
+div {
+  /* width: 20%; */
+  flex: 1;
+}
+
+.search {
+  flex: 2;
+}
+.contact {
+  flex: 3;
+}
+
+/*flex, flex-grow, flex-shrink, flex-basis*/

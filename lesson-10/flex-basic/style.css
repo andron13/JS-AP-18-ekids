@@ -13,6 +13,8 @@ body {
 }
 
 nav {
+  display: flex;
+  /* МЫ УЧИМ ФЛЕКС-БОКСЫ */
   border: solid 3px #ffcc5b;
   font-size: 4rem;
   width: 90%;
