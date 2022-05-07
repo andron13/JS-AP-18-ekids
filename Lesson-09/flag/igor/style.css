@@ -27,7 +27,7 @@
   height: 100px;
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 400px) {
   .first-line {
     background-color: white;
   }
@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
   .first-line {
     background-color: black;
   }
@@ -48,21 +48,5 @@
   }
   .third-line {
     background-color: gold;
-  }
-}
-
-@media screen and (min-width: 450px) {
-  .first-line {
-    background-color: skyblue;
-  }
-  .second-line {
-    background-color: yellow;
-  }
-  .third-line {
-    background-color: transparent;
-    border-color: transparent;
-  }
-  .flag {
-    border-color: transparent;
   }
 }
