@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header,
+        footer,
+        section {
+            border: gold 2px solid;
+        }
+
+        section {
+            border: red 2px solid;
+            height: 200px;
+        }
+
+        aside,
+        article {
+            border: green 2px solid;
+
+        }
+
+        section {
+            display: flex;
+            /* gap: 5px; */
+        }
+
+        aside.left {
+            flex: 1;
+            background-color: #E06C8E;
+            color: #E0DA82;
+        }
+
+        aside.right {
+            flex: 1;
+        }
+
+        article {
+            flex: 3;
+            background-color: #943853;
+            color: #E0DA82;
+        }
+
+        footer {
+            display: flex;
+            gap: 5px;
+            height: 50px;
+        }
+
+        footer div {
+            border: blue 2px solid;
+            flex: 1;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            display: flex;
+            gap: 5px;
+            justify-content: space-evenly;
+        }
+
+        li {
+            display: inline;
+        }
+
+        nav {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <h1>Header</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">Sales</a>
+            </li>
+            <li>
+                <a href="">Partners</a>
+            </li>
+            <li>
+                <a href="">News</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- main section -->
+    <section class="main">
+        <aside class="left">
+            левая колонка
+        </aside>
+
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad illo quis eius quam consectetur perspiciatis doloremque ex dolor, iure culpa voluptatem rerum saepe hic delectus repellat reiciendis id nostrum recusandae.
+        </article>
+
+        <aside class="right">
+            правая колонка
+        </aside>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </footer>
+
+</body>
+
+</html>
